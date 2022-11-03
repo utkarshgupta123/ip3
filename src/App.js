@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Question2 from "./components/useState";
+import AxiosFetch from "./components/AxiosFetch";
+import Question3 from "./components/useEffect";
+import Parent from "./components/Parent";
+import Counter from "./components/useReducer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<AxiosFetch/>
+  <Question2/>
+  <Question3/>
+  <Counter/>
+  <Parent/>
+
     </div>
   );
 }
